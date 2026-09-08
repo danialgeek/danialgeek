@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <!-- Single shutter blade definition to be rotated 4 times -->
+    <path id="shutter-blade" d="M 46,38 C 62,24 80,18 97,18 C 93,22 90,26 89,32 C 65,37 45,54 39,78 C 32,77 26,73 23,67 C 22,55 32,44 46,38 Z" fill="#1c242c" />
+  </defs>
+
+  <g id="aparat-logo">
+    <!-- 4 outer shutter blades rotated symmetrically around center (100, 100) -->
+    <path d="M 43,43 C 58,28 77,21 95,20 C 91,24 88,30 87,35 C 65,40 47,56 40,78 C 35,76 29,71 27,65 C 24,54 32,45 43,43 Z" fill="#1e252d" />
+    <path d="M 157,43 C 172,58 179,77 180,95 C 176,91 170,88 165,87 C 160,65 144,47 122,40 C 124,35 129,29 135,27 C 146,24 155,32 157,43 Z" fill="#1e252d" />
+    <path d="M 157,157 C 142,172 123,179 105,180 C 109,176 112,170 113,165 C 135,160 153,144 160,122 C 165,124 171,129 173,135 C 176,146 168,155 157,157 Z" fill="#1e252d" />
+    <path d="M 43,157 C 28,142 21,123 20,105 C 24,109 30,112 35,113 C 40,135 56,153 78,160 C 76,165 71,171 65,173 C 54,176 45,168 43,157 Z" fill="#1e252d" />
+
+    <!-- Center Pink/Magenta Disc -->
+    <circle cx="100" cy="100" r="67" fill="#ea1b5d" />
+
+    <!-- 4 Inner White Circles (resembling film reel cutouts, rotated ~22.5 deg) -->
+    <circle cx="83.5" cy="60.5" r="17" fill="#ffffff" />
+    <circle cx="139.5" cy="83.5" r="17" fill="#ffffff" />
+    <circle cx="116.5" cy="139.5" r="17" fill="#ffffff" />
+    <circle cx="60.5" cy="116.5" r="17" fill="#ffffff" />
+
+    <!-- Small Center White Dot -->
+    <circle cx="100" cy="100" r="8.5" fill="#ffffff" />
+  </g>
+</svg>
